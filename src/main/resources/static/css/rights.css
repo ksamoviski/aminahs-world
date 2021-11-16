@@ -1,5 +1,5 @@
 body{
-    background-image: url(/img/bg-rights.jpg);
+    background-image: url(../img/bg-rights.jpg);
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -7,6 +7,6 @@ body{
 .rights{
     height: 55vh;
     overflow: scroll;
-    width: 60%;
     padding-top: 4rem;
+    width: 60%;
 }

@@ -1,14 +1,14 @@
 body{
-    background-image: url(/img/bg-home.jpg);
-    background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: center; 
+    background-image: url(../img/bg-home.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
  .home{
     height: 55vh;
-    overflow-y: scroll; /* Hide vertical scrollbar */
-    overflow-x: hidden; /* Hide horizontal scrollbar */
+    overflow-x: hidden;
+     overflow-y: scroll;
     width: 80%;
 }
 
@@ -23,16 +23,16 @@ body{
  }
  
  .cmaWebLink{
-    padding: .5rem 1rem;
-    background-color: #6a7929;
-    white-space: nowrap;
-    font-family: 'Neucha';
-    font-size: .9rem;
-    border-radius: 20% 31% 45% 30%;
-    border: solid;
-    margin-top: .5rem;
-    text-align: center;
-    border-width: .001rem .0125rem;  
+     background-color: #6a7929;
+     border: solid;
+     border-radius: 20% 31% 45% 30%;
+     border-width: .001rem .0125rem;
+     font-family: 'Neucha';
+     font-size: .9rem;
+     margin-top: .5rem;
+     padding: .5rem 1rem;
+     text-align: center;
+     white-space: nowrap;
  }
  .cmaWebLink :hover{
     color: #c9da2a;
