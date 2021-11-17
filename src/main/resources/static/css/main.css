@@ -137,8 +137,9 @@ ul{
 
 .contentTitle{
     font-size: 1.25rem;
-    margin-bottom: 1rem;
     font-family: 'Neucha';
+    letter-spacing: .125rem;
+    margin-bottom: 1rem;
 
 }
 

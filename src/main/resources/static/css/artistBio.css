@@ -61,11 +61,6 @@ body{
       width: 335vw;
   }
 
-  .bio{
-    font-size: 1rem;
-    width: 50vw;
-  }
-
   .date{
       font-size: 1.5rem;
       font-family: 'Neucha';
@@ -74,20 +69,49 @@ body{
   }
 
   .modal-open{
-      float: right;
+      text-align: right;
       font-family: 'Neucha';
       margin-right: 7rem;
   }
 
+.bio{
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+}
+
   .modal-open:hover{
     color: #7d1515;
     }
+
+  .quote{
+      border-bottom: 0.0125rem solid;
+      border-top: 0.0125rem solid;
+      border-radius:3% 20% 9% 14%;
+      font-family: 'Neucha';
+      letter-spacing: .125rem;
+      padding: .25rem 1rem;
+  }
 
     .years{
         column-gap: 2rem;
         display: flex;
         margin-left: 3rem;
         padding-top: 1rem;
+    }
+
+    .multiColumn{
+        display: flex;
+        column-gap: 1rem;
+    }
+
+    img{
+        width: min-content;
+    }
+
+    .year1940{
+        width: 20rem;
     }
 
     .timelineImg{

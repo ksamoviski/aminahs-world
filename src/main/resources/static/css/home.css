@@ -6,10 +6,11 @@ body{
 }
 
  .home{
-    height: 55vh;
-    overflow-x: hidden;
-     overflow-y: scroll;
-    width: 80%;
+    /*height: 55vh;*/
+     padding-top: 4rem;
+     /*overflow-y: scroll;*/
+     /*overflow-x: hidden;*/
+     width: 70%;
 }
 
 .smallBody{
