@@ -3,12 +3,12 @@ body{
 }
 
 #pageContainerTimeline{
-    background-image: url(../img/bg-timeline.gif);
+    background-image: url(../img/bg-timeline-long.jpg);
     background-repeat: no-repeat;
     display: flex;
     height: 100vh;
     margin: 5rem 0 0 10rem;
-    width: 500vw;
+    width: 10100px;
 }
 
 .headerTimeline{
@@ -58,7 +58,7 @@ body{
       display: flex;
       height: 30rem;
       margin: 4rem 0 0 3rem;
-      /*width: 335vw;*/
+      /*width: 3000vw;*/
   }
 
   .date{
